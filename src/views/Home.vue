@@ -11,6 +11,7 @@
           <a href="https://vuejs.org/">Vue.js</a>
           with
           <a href="https://firebase.google.com">Firebase</a>.
+          <font-awesome-icon icon="star"></font-awesome-icon>
         </p>
 
         <router-link
@@ -31,7 +32,11 @@
 </template>
 
 <script>
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome"
 export default {
   name: "home",
+  components: {
+    FontAwesomeIcon
+  }
 };
 </script>
